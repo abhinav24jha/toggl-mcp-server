@@ -115,6 +115,13 @@ EMAIL=your_toggl_email
 PASSWORD=your_toggl_password
 ```
 
+If you are using Toggl API tokens:
+```bash
+EMAIL=xxxx
+PASSWORD="api_token"
+```
+Where `xxxx` indicates your personal token
+
 ### Installation
 
 First install uv:
