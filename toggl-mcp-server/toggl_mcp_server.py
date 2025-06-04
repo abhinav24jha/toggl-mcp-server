@@ -847,7 +847,7 @@ async def update_projects(
     return response
 
 @mcp.tool()
-async def get_all_projects(workspace_name: Optional[str]) -> Union[dict, str]:
+async def get_all_projects(workspace_name: Optional[str] = None) -> Union[dict, str]:
     """
     Retrieve all projects in the user's Toggl workspace.
 
